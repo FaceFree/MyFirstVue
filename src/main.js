@@ -15,6 +15,12 @@ router.beforeEach((to, from, next) => {
   }
   next();
 })
+//注册全局组件mint-ui
+import { Field,Header } from 'mint-ui';
+Vue.component(Field.name, Field);
+Vue.component(Header.name, Header);
+
+
 
 Vue.config.productionTip = false
 

@@ -1,10 +1,12 @@
 <template>
   <div id="app">
-    <router-view/>
+   <!-- <mt-header fixed title="固定在顶部"></mt-header>-->
+    <router-view style="margin-top: -20%;"/>
   </div>
 </template>
 
 <script>
+
 export default {
   name: 'App'
 }
